@@ -28,11 +28,10 @@ mongoose.connect(
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
-      useFindAndModify: false
-    }
+      useFindAndModify: false }
   );
   
 
 app.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}`)
+    console.log(`Online on port ${PORT}`)
 })
